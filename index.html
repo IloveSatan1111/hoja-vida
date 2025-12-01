@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="encabezado-container">
+            <h2>Mi fotografia</h2>
+            <img src="img/icons8-usuario-48.png" alt="Mi fotografia" width="200px">
+        </div>
+        
+        <div id="content">
+            <h1>Sobre mi</h1>
+            <h2>Introducción</h2>
+            <p class="card">Hola, mi nombre es <b>Calet Ortiz</b>. Esta es una pagina web básica creada
+                como parte de mi laboratiorio HTML y git. Aquí encontraras información
+                sobre mi, mis pasatiempos y mis intereses. Ademas, un formulario para contartarme.
+            </p>
+            <h2>Perfil profesional -Educativos</h2>
+            <p class="card">
+                Soy estudiante de Ingenieria con itereses en el <u>desarrollo movil, IA, y optimizacion de sistemas complejos</u> me gusta
+                la innovación y aprender nuevas tecnologias.
+            </p>
+            
+            <h2>Mis redes</h2>
+            <ul class="redes">
+                <li id="redes-item"><a href="https://www.facebook.com/calet.ortiz.1" target="_blank">Facebook</a></li>
+                <li id="redes-item"><a href="https://www.instagram.com/calet_ortiz/" target="_blank">Instagram</a></li>
+                <li id="redes-item"><a href="https://www.linkedin.com/in/calet-ortiz-982b2523b/" target="_blank">Linkedin</a></li>
+            </ul>
+            <h2>Mis pasatiempos</h2>
+            <ol>
+                <li>Leer libros de Ciencia</li>
+                <li>Programacion</li>
+                <li>Hacer ejercicio</li>
+                <li>Ver series y peliculas</li>
+            </ol>
+            <h2>Mis deportes favoritos</h2>
+            <ul>
+                <li>Bicicleta</li>
+                <li>Baloncesto</li>
+                <li>Natacion</li>
+            </ul>
+
+            <div>
+                <h2>Mi horario de actividades</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>dia</th>
+                            <th>actividad</th>
+                            <th>hora</th>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>Estudio de programación</td>
+                            <td>6:00 PM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>Ver documentales de tecnología</td>
+                            <td>8:00 PM - 9:30 PM</td>
+                        </tr>
+
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>Lectura de libros de ciencia</td>
+                            <td>7:00 PM - 9:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>Ver series y películas</td>
+                            <td>6:30 PM - 8:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>Sesión de ejercicio</td>
+                            <td>5:00 PM - 6:30 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="formulario">
+                <h2>Contáctame</h2>
+                <form action="" >
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="name" required placeholder="Registra tu nombre"><br><br>
+                        
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" name="email" required placeholder="digita tu correo"><br><br>
+                        
+                    <label for="message">Mensaje:</label><br>
+                    <textarea name="message" rows="4" cols="50" required placeholder="digita tu Solicitud"></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+        <a href="https://github.com/IloveSatan1111/hoja-vida.git">github</a>
+    </div>
+</body>
+</html>
